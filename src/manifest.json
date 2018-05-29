@@ -1,0 +1,15 @@
+{
+    "background_color": "#000000",
+    "name": "Maionoi.se",
+    "description": "",
+    "display": "standalone",
+    "icons": [{
+        "src": "/img/icon.png",
+        "sizes": "180x180"
+    }],
+    "start_url": "/",
+    "orientation": "portrait-primary",
+    "short_name": "Milico",
+    "theme_color": "#000000",
+    "version": "1.0.0"
+}

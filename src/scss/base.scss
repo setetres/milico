@@ -1,0 +1,159 @@
+@import 'variables';
+@import 'vendor/grid';
+
+a,
+input,
+select,
+textarea,
+button {
+    &:hover,
+    &:active,
+    &:focus {
+        outline: 0 none;
+    }
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    background-color: $white;
+    font-size: 100%;
+}
+
+.body {
+    background-color: $white;
+    cursor: default;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-size-adjust: 100%;
+}
+
+.background {
+    background-image: url('../img/milico.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+
+    &::before {
+        background: url('../img/pattern-white.png') top left repeat;
+        content: '';
+        height: 100%;
+        left: 0;
+        opacity: .5;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+}
+
+.main {
+    .title {
+        margin: 0;
+        width: 300px;
+
+        @media (min-width: map-get($grid-breakpoints, md)) {
+            width: 500px;
+        }
+    }
+
+    .subtitle {
+        color: $white;
+        font-size: 11px;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+
+    p {
+        a {
+            background: rgba($black, .5);
+            color: $white;
+            cursor: pointer;
+            font-size: 10px;
+            margin: 0 2px;
+            padding: 5px 10px;
+            position: relative;
+            text-decoration: none;
+            transition: background $timing $easing-out;
+
+            &::before {
+                background: $white;
+                bottom: 50%;
+                content: '';
+                height: 1px;
+                left: 0;
+                margin-bottom: -1px;
+                position: absolute;
+                transition: width $timing $easing-out;
+                width: 0;
+            }
+
+            &:hover {
+                background: rgba($black, 0);
+
+                &::before {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        position: relative;
+        z-index: 3;
+    }
+
+    .actions {
+        display: flex;
+        flex-direction: row;
+
+        a {
+            align-items: center;
+            background-color: rgba($white, .2);
+            border: 2px solid $white;
+            border-radius: 50px;
+            color: $white;
+            display: flex;
+            font-size: 1.2rem;
+            font-weight: 700;
+            height: 50px;
+            justify-content: center;
+            line-height: 1.2rem;
+            margin: 0 15px;
+            padding: 5px;
+            position: relative;
+            text-decoration: none;
+            transition: background-color $timing $easing-out;
+            width: 200px;
+
+            &:hover {
+                background-color: rgba($black, .2);
+            }
+        }
+    }
+}
