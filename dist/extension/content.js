@@ -50,3 +50,54 @@ for (var i = 0; i < elements.length; i++) {
         }
     }
 }
+
+for (var i = 0; i < elements.length; i++) {
+    var element4 = elements[i];
+
+    for (var j = 0; j < element4.childNodes.length; j++) {
+        var node4 = element4.childNodes[j];
+
+        if (node4.nodeType === 3) {
+            var text4 = node4.nodeValue;
+            var textChange4 = text4.replace(/Intervencao Militar Ja/gi, '🌸🌸🌸🌸🌸🌸🌸');
+
+            if (textChange4 !== text4) {
+                element4.replaceChild(document.createTextNode(textChange4), node4);
+            }
+        }
+    }
+}
+
+for (var i = 0; i < elements.length; i++) {
+    var element5 = elements[i];
+
+    for (var j = 0; j < element5.childNodes.length; j++) {
+        var node5 = element5.childNodes[j];
+
+        if (node5.nodeType === 3) {
+            var text5 = node5.nodeValue;
+            var textChange5 = text5.replace(/Intervencao Militar/gi, '🌼🌼🌼🌼🌼🌼🌼');
+
+            if (textChange5 !== text5) {
+                element5.replaceChild(document.createTextNode(textChange5), node5);
+            }
+        }
+    }
+}
+
+for (var i = 0; i < elements.length; i++) {
+    var element6 = elements[i];
+
+    for (var j = 0; j < element6.childNodes.length; j++) {
+        var node6 = element6.childNodes[j];
+
+        if (node6.nodeType === 3) {
+            var text6 = node6.nodeValue;
+            var textChange6 = text6.replace(/Indiretas Já/gi, '🌻🌻🌻🌻🌻🌻🌻');
+
+            if (textChange6 !== text6) {
+                element6.replaceChild(document.createTextNode(textChange6), node6);
+            }
+        }
+    }
+}
