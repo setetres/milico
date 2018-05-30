@@ -13,7 +13,7 @@ var config = {
     },
     'extension': {
         'src': [
-            './src/extension/*.{js,json}'
+            './src/extension/*.{js,json,png}'
         ],
         'dest': './dist/extension'
     },

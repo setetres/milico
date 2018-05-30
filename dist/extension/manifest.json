@@ -3,11 +3,11 @@
     "name": "Milico",
     "description": "Você pode substituir Intervenção Militar por flores, por exemplo. 🌸🌷🌼🌺🌻",
     "version": "1.0",
-    // "icons": {
-    //     "16": "16.png",
-    //     "48": "48.png",
-    //     "128": "128.png"
-    // },
+    "icons": {
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png"
+    },
     "content_scripts": [
         {
             "matches": [
