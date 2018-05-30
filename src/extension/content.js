@@ -237,3 +237,20 @@ for (var i = 0; i < elements.length; i++) {
         }
     }
 }
+
+for (var i = 0; i < elements.length; i++) {
+    var element15 = elements[i];
+
+    for (var j = 0; j < element15.childNodes.length; j++) {
+        var node15 = element15.childNodes[j];
+
+        if (node15.nodeType === 3) {
+            var text15 = node15.nodeValue;
+            var textChange15 = text15.replace(/Golpe Militar/gi, '🌸🌷🌼🌺🌻');
+
+            if (textChange15 !== text15) {
+                element15.replaceChild(document.createTextNode(textChange15), node15);
+            }
+        }
+    }
+}
