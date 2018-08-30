@@ -161,7 +161,7 @@ for (var i = 0; i < elements.length; i++) {
 
         if (node10.nodeType === 3) {
             var text10 = node10.nodeValue;
-            var textChange10 = text10.replace(/Ditadura/gi, '🌸🌷🌼🌺🌻');
+            var textChange10 = text10.replace(/Indiretas Já/gi, '🌸🌷🌼🌺🌻');
 
             if (textChange10 !== text10) {
                 element10.replaceChild(document.createTextNode(textChange10), node10);
@@ -178,7 +178,7 @@ for (var i = 0; i < elements.length; i++) {
 
         if (node11.nodeType === 3) {
             var text11 = node11.nodeValue;
-            var textChange11 = text11.replace(/Intervenção/gi, '🌸🌷🌼🌺🌻');
+            var textChange11 = text11.replace(/Indiretas Ja/gi, '🌸🌷🌼🌺🌻');
 
             if (textChange11 !== text11) {
                 element11.replaceChild(document.createTextNode(textChange11), node11);
@@ -195,61 +195,10 @@ for (var i = 0; i < elements.length; i++) {
 
         if (node12.nodeType === 3) {
             var text12 = node12.nodeValue;
-            var textChange12 = text12.replace(/Intervencao/gi, '🌸🌷🌼🌺🌻');
+            var textChange12 = text12.replace(/Golpe Militar/gi, '🌸🌷🌼🌺🌻');
 
             if (textChange12 !== text12) {
                 element12.replaceChild(document.createTextNode(textChange12), node12);
-            }
-        }
-    }
-}
-
-for (var i = 0; i < elements.length; i++) {
-    var element13 = elements[i];
-
-    for (var j = 0; j < element13.childNodes.length; j++) {
-        var node13 = element13.childNodes[j];
-
-        if (node13.nodeType === 3) {
-            var text13 = node13.nodeValue;
-            var textChange13 = text13.replace(/Indiretas Já/gi, '🌸🌷🌼🌺🌻');
-
-            if (textChange13 !== text13) {
-                element13.replaceChild(document.createTextNode(textChange13), node13);
-            }
-        }
-    }
-}
-
-for (var i = 0; i < elements.length; i++) {
-    var element14 = elements[i];
-
-    for (var j = 0; j < element14.childNodes.length; j++) {
-        var node14 = element14.childNodes[j];
-
-        if (node14.nodeType === 3) {
-            var text14 = node14.nodeValue;
-            var textChange14 = text14.replace(/Indiretas Ja/gi, '🌸🌷🌼🌺🌻');
-
-            if (textChange14 !== text14) {
-                element14.replaceChild(document.createTextNode(textChange14), node14);
-            }
-        }
-    }
-}
-
-for (var i = 0; i < elements.length; i++) {
-    var element15 = elements[i];
-
-    for (var j = 0; j < element15.childNodes.length; j++) {
-        var node15 = element15.childNodes[j];
-
-        if (node15.nodeType === 3) {
-            var text15 = node15.nodeValue;
-            var textChange15 = text15.replace(/Golpe Militar/gi, '🌸🌷🌼🌺🌻');
-
-            if (textChange15 !== text15) {
-                element15.replaceChild(document.createTextNode(textChange15), node15);
             }
         }
     }
