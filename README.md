@@ -1,7 +1,7 @@
-| [![xxxxxxxooo-v2](https://setetres.s3.amazonaws.com/setetres.st/img/share-milico.png?v=1&raw=true)](http://milico.setetres.st) |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| [![milico](https://setetres.s3.amazonaws.com/setetres.st/img/share-milico.png?v=1&raw=true)](http://milico.setetres.st) |
+| ----------------------------------------------------------------------------------------------------------------------- |
 
-[![Github License](https://img.shields.io/github/license/setetres/xxxxxxxooo-v2.svg?v=10)](https://github.com/setetres/xxxxxxxooo-v2/blob/master/LICENSE)
+[![Github License](https://img.shields.io/github/license/setetres/milico.svg?v=10)](https://github.com/setetres/milico/blob/master/LICENSE)
 
 ## License
 
