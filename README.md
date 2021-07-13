@@ -1,7 +1,9 @@
-| [![milico](https://setetres.s3.amazonaws.com/setetres.st/img/share-milico.png?v=1&raw=true)](http://milico.setetres.st) |
-| ----------------------------------------------------------------------------------------------------------------------- |
+# milico
 
 [![Github License](https://img.shields.io/github/license/setetres/milico.svg?v=13)](https://github.com/setetres/milico/blob/master/LICENSE)
+
+| [![milico](https://setetres.s3.amazonaws.com/setetres.st/img/share-milico.png?v=2&raw=true)](http://milico.setetres.st) |
+| ----------------------------------------------------------------------------------------------------------------------- |
 
 ## License
 
